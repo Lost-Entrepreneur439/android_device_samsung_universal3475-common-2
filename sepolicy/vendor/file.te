@@ -49,3 +49,6 @@ type sysfs_v4l, sysfs_type, fs_type, mlstrustedobject;
 
 ### data types
 type display_vendor_data_file, file_type, data_file_type;
+
+# Mail DebugFS
+type debugfs_mali, fs_type, debugfs_type;

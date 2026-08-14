@@ -111,6 +111,10 @@ genfscon sysfs /devices/13870000.hsi2c/i2c-0/0-0068/iio:device1     u:object_r:s
 genfscon sysfs /devices/13870000.hsi2c/i2c-0/0-002e/iio:device2     u:object_r:sysfs_sensors:s0
 
 
+# Mail DebugFS
+genfscon debugfs /mali u:object_r:debugfs_mali:s0
+genfscon debugfs /mali0 u:object_r:debugfs_mali:s0
+
 genfscon sysfs /devices/13540000.dwmmc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0 u:object_r:sysfs_mmc:s0
 
 genfscon sysfs /devices/virtual/net/rmnet0 u:object_r:sysfs_net:s0
